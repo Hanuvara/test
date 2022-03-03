@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form_highlight" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.search.list</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='user_default_rights']" position="inside">
+                <div class="col-12 col-lg-6 o_setting_box" id="search_list_setting">
+                    <div class="o_setting_right_pane">
+                        <span class="o_form_label">ChatBot Configuration</span>
+                        <div class="text-muted">
+                            Configure ChatBot Setting 1
+                        </div>
+                        <div class="content-group">
+                            <div class="mt16 row">
+                                <label for="chatbot_selection_1" class="col-3 col-lg-3 o_light_label"/>
+                                <field name="chatbot_selection_1" class="oe_inline"/>
+                            </div>
+                            <div class="mt16 row">
+                                <label for="chatbot_end_str_1" class="col-3 col-lg-3 o_light_label"/>
+                                <field name="chatbot_end_str_1" class="oe_inline" />
+                            </div>
+                            <div class="mt16 row">
+                                <label for="algorithm_1" class="col-3 col-lg-3 o_light_label"/>
+                                <field name="algorithm_1" class="oe_inline" />
+                            </div>
+                        </div>
+                        <div class="text-muted">
+                            Configure ChatBot Setting 2
+                        </div>
+                        <div class="content-group">
+                            <div class="mt16 row">
+                                <label for="chatbot_selection_2" class="col-3 col-lg-3 o_light_label"/>
+                                <field name="chatbot_selection_2" class="oe_inline"/>
+                            </div>
+                            <div class="mt16 row">
+                                <label for="chatbot_end_str_2" class="col-3 col-lg-3 o_light_label"/>
+                                <field name="chatbot_end_str_2" class="oe_inline" />
+                            </div>
+                            <div class="mt16 row">
+                                <label for="algorithm_2" class="col-3 col-lg-3 o_light_label"/>
+                                <field name="algorithm_2" class="oe_inline" />
+                            </div>
+                        </div>
+                        <div class="text-muted">
+                            Configure ChatBot Setting 3
+                        </div>
+                        <div class="content-group">
+                            <div class="mt16 row">
+                                <label for="chatbot_selection_3" class="col-3 col-lg-3 o_light_label"/>
+                                <field name="chatbot_selection_3" class="oe_inline"/>
+                            </div>
+                            <div class="mt16 row">
+                                <label for="chatbot_end_str_3" class="col-3 col-lg-3 o_light_label"/>
+                                <field name="chatbot_end_str_3" class="oe_inline" />
+                            </div>
+                            <div class="mt16 row">
+                                <label for="algorithm_3" class="col-3 col-lg-3 o_light_label"/>
+                                <field name="algorithm_3" class="oe_inline" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
