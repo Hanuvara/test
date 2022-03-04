@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-#CHANGE ON TEST MAIN>CHANGE1
 # Part of test. See LICENSE file for full copyright and licensing details.
 {
     'name': "Chat Bot",
